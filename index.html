@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login</title>
+</head>
+<link rel="stylesheet" href="style1.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/img1.jpg);
+        width: 100vw;
+        height: 110vh;
+        background-size: cover;
+    }
+
+    .left {
+        position: absolute;
+        line-height: 35px;
+        /* border: 2px solid gray; */
+        left: 7px;
+        top: 6px;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .left img {
+        width: 102px;
+        height: 87px;
+        filter: invert(100%);
+
+    }
+
+    .mid {
+        color: rgb(241, 237, 237);
+        position: absolute;
+        right: 636px;
+        margin: -208px auto;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .right {
+        position: absolute;
+        display: inline-block;
+        top: 7px;
+        right: 3px;
+        /* border: 2px solid green; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 17px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: rgb(2, 2, 2);
+        font-size: 17px;
+        text-decoration: none;
+        padding: 12px 11px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        padding: 2px;
+        margin: 4px;
+        background-color: white;
+        color: black;
+        border: 2px solid gray;
+        border-radius: 9px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+   
+   .btn:hover{
+    background-color: rgb(230, 194, 194);
+   }
+   .container{
+    margin: 229px;
+    padding: 59px;
+    border: 2px solid rgb(176, 176, 231);
+    width: 287px;
+    border-radius: 28px;
+   }
+   .from-group input{
+    text-align: center;
+    border: 2px solid rgb(76, 79, 121);
+    margin: 4px auto;
+    padding: 5px;
+    display: block;
+    width: 237px;
+    font-size: 15px;
+    border-radius: 9px;
+   }
+   .container h1{
+    text-align: center;
+   }
+   .container button{
+    display: block;
+    width: 82px;
+    margin: 21px auto;
+   }
+   
+    </style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/img4.avif" alt="">
+            <div>KARENB</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PRIVACY</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Contact us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>KARENB</h1>
+        <form action="noaction.php">
+            <div class="from-group">
+                <input type="Name" name="active" placeholder="Enter your name">
+            </div>
+            <div class="from-group">
+                <input type="Name" name="" placeholder="Enter your Age">
+            </div>
+            <div class="from-group">
+                <input type="Name" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="from-group">
+                <input type="Name" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
